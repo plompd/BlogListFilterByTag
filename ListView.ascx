@@ -24,6 +24,6 @@
           <sf:ContentBrowseAndEditToolbar ID="BrowseAndEditToolbar" runat="server" Mode="Edit,Delete,Unpublish"></sf:ContentBrowseAndEditToolbar>
     </ItemTemplate>
 </telerik:RadListView>
-<custom:CustomPager ID="pager" runat="server" ShowPrevAndNext="true" ShowFirstAndLast="false"></custom:CustomPager>
+<sf:Pager id="pager" runat="server"></sf:Pager>
 
 <asp:PlaceHolder ID="socialOptionsContainer" runat="server" />
